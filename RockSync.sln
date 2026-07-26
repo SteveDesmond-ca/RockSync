@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{2536CE0E-F0F4-4FD3-A136-6AEB1589F4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{806886F3-7219-4104-8459-1051955C5883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2536CE0E-F0F4-4FD3-A136-6AEB1589F4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2536CE0E-F0F4-4FD3-A136-6AEB1589F4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2536CE0E-F0F4-4FD3-A136-6AEB1589F4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2536CE0E-F0F4-4FD3-A136-6AEB1589F4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806886F3-7219-4104-8459-1051955C5883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806886F3-7219-4104-8459-1051955C5883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806886F3-7219-4104-8459-1051955C5883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806886F3-7219-4104-8459-1051955C5883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

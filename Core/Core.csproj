@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ecoAPM.RockSync.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SSH.NET" Version="2025.1.0"/>
+        <PackageReference Include="TestableIO.System.IO.Abstractions" Version="22.0.16"/>
+    </ItemGroup>
+
+</Project>

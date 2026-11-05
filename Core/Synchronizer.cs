@@ -7,7 +7,7 @@ namespace ecoAPM.RockSync.Core;
 
 public class Synchronizer
 {
-    private static readonly string[] MediaFileTypes = ["mp3", "m4a", "wma", "flac"];
+    private static readonly string[] MediaFileTypes = ["flac", "m4a", "mp3", "ogg", "opus", "wma"];
 
     private readonly IFileSystem _fs;
     private readonly ISftpClient _sftp;

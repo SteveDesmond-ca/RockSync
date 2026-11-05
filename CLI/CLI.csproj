@@ -1,5 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net10.0</TargetFramework>
@@ -7,13 +6,10 @@
         <Nullable>enable</Nullable>
         <RootNamespace>ecoAPM.RockSync.CLI</RootNamespace>
     </PropertyGroup>
-
     <ItemGroup>
-      <ProjectReference Include="..\Core\Core.csproj" />
+        <ProjectReference Include="..\Core\Core.csproj" />
     </ItemGroup>
-
     <ItemGroup>
-      <PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" Version="22.0.16" />
+        <PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" Version="22.2.0" />
     </ItemGroup>
-
 </Project>
